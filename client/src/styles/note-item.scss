@@ -1,0 +1,63 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+
+.note-item{
+  color:black;
+
+  margin: 20px;
+
+  width: 20vw;
+  min-width: 350px;
+
+  border-radius: 20px;
+  padding:20px;
+
+  //height: 40vh;
+
+  min-height: 200px;
+  max-height: 400px;
+
+  .content-container{
+    max-height: 300px;
+    overflow-y: auto;
+
+    word-wrap: break-word;
+  }
+
+  button{
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    color:black;
+
+    font-size: 20px;
+
+  }
+
+  .note-delete-button{
+    position: relative;
+    float:right;
+  }
+
+
+  h4{
+    margin:10px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .delete-confirm-buttons{
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    .delete-yes{
+      padding: 0 10px;
+      background-color: black;
+    }
+  }
+
+}
