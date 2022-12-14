@@ -25,7 +25,7 @@ const Home = props => {
         <h3>To log in, go to the <Link to="/login">Login page</Link></h3>
         <h3>To register, go to the <Link to="/register">Register page</Link></h3>
       </div>
-      <footer><a href="https://github.com/yosBoi/notes-app">Github <i className="fab fa-github"></i></a></footer>
+      <footer><a href="https://github.com/yosBoi/notes-bvicam">Github <i className="fab fa-github"></i></a></footer>
       </>
     )
   }
